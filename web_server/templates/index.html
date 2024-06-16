@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <meta charset='UTF-8'>
+  <head>
+    <title>Datasets - SAD</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+      <h1 class="title">Preenchimento de datasets para treinamento de dados</h1>
+      <h2 id="currentTime"></h2>
+      <p>Esta ferramenta tem como objetivo criar um dataset de perguntas e respostas relacionado a área de licitações 
+      públicas. Há um conjunto de arquivos PDF que são os exemplos de dados de treinamento para os documentos
+      ETP (Estudo Técnico Preliminar) e TR (Termo de Referência). Baseado nesses arquivos, o especialista técnico nessas
+      áreas de licitações deve elaborar perguntas para preencher o dataset, de modo que a resposta seja um recorte ou
+      resumo do texto localizado em alguns dos PDFs.</p>
+      <p>É importante ressaltar que a pergunta deve ser bem elaborada, sem erros de português e de forma que tenha
+      o máximo de detalhamento possível, a fim de que a resposta possa contemplar de forma coesa.</p>
+      
+      <form method="post">
+        <label for="question">Pergunta:</label>
+        <textarea id="question" name="question" rows="4" cols="50">{{question}}</textarea><br><br>
+        <label for="answer">Resposta:</label>
+        <textarea id="answer" name="answer" rows="4" cols="50">{{answer}}</textarea><br><br>
+        <input type="submit" value="Enviar" onclick="confirma()">
+      </form>
+      <script src="../static/js/script.js"></script>
+  </body>
+</html>

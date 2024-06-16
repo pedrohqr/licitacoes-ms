@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2024-04-17T19:00:02.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="djjzMPtFoePnu-tLHSzc" version="24.2.5" type="device">
+  <diagram name="Página-1" id="CphyMd5uNIkxkGIHRnLE">
+    <mxGraphModel dx="2100" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-3" value="Pré Processamento" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="240" height="210" as="geometry">
+            <mxRectangle x="160" y="110" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-4" value="&lt;ul&gt;&lt;li&gt;Documento de Formalizacao de Demanda (DFD&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Contém os dados completos de produtos/serviços solicitados&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Assume-se que o documento esteja &quot;informal&lt;/span&gt;&quot;&lt;/li&gt;&lt;li&gt;Objetivo: Extrair informações dos produtos/serviços a serem contratados&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;docx, pdf&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="U3PAHzWbFA--7wJFhrKN-3">
+          <mxGeometry y="30" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="28" y="190" as="sourcePoint" />
+            <mxPoint x="158" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-8" value="IN&lt;div&gt;Arquivo&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U3PAHzWbFA--7wJFhrKN-7">
+          <mxGeometry x="-0.0276" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Objetivo&lt;/h1&gt;&lt;p&gt;Reduzir o tempo de elaboração de documentos ETP (Estudo Técnico Preliminar) e TR (Termo de Referência).&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ETP&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Obrigatório.&lt;/li&gt;&lt;li&gt;Temos modelo pronto com todas as formulações estruturais do texto.&lt;/li&gt;&lt;li&gt;O item que demanda mais tempo é &quot;Levantamento de Mercado&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-11" value="Organização dos tópicos e geração dos textos para cada tópico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.019;entryY=0.353;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U3PAHzWbFA--7wJFhrKN-4" target="U3PAHzWbFA--7wJFhrKN-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="210" as="sourcePoint" />
+            <mxPoint x="510" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-18" value="Pré Processamento" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="375" width="240" height="210" as="geometry">
+            <mxRectangle x="160" y="110" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-19" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Assume-se que o usuário irá entrar com os itens necessários&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Realizar verificação da descrição dos itens&lt;/li&gt;&lt;li&gt;Objetivo: Descrever os itens da melhor forma possível&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="U3PAHzWbFA--7wJFhrKN-18">
+          <mxGeometry y="30" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="479.76" as="sourcePoint" />
+            <mxPoint x="160" y="479.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-22" value="IN&lt;div&gt;Texto Descritivo&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U3PAHzWbFA--7wJFhrKN-21">
+          <mxGeometry x="-0.0276" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.443;exitDx=0;exitDy=0;entryX=0.039;entryY=0.721;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="U3PAHzWbFA--7wJFhrKN-19" target="U3PAHzWbFA--7wJFhrKN-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="480" as="sourcePoint" />
+            <mxPoint x="539" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="349.8" as="sourcePoint" />
+            <mxPoint x="950" y="349.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-25" value="Montar &quot;Pré ETP&quot;&amp;nbsp;&lt;div&gt;com textos&lt;div&gt;&lt;div&gt;obtidos do ChatGPT&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U3PAHzWbFA--7wJFhrKN-24">
+          <mxGeometry x="0.048" y="-1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-31" value="Objeto &quot;editável&quot; para usuário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3PAHzWbFA--7wJFhrKN-32" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(77, 77, 77); background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;* Usuário deve conferir referências criadas pelo ChatGPT&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
